@@ -1,10 +1,10 @@
-# Distributed Machine Learning on Banking Data
+# 🏦 Distributed Machine Learning on Banking Data
 
 End-to-End Distributed Data Engineering and Machine Learning System built using Apache Spark, PySpark, Hadoop, Hive, Spark ML, Spark Structured Streaming, and Local MapReduce Simulation for Large-Scale Banking Analytics.
 
 ---
 
-# Project Overview
+# 📝 Project Overview
 
 This project demonstrates how distributed computing and machine learning technologies can be used to process, analyze, and generate insights from large-scale banking datasets.
 
@@ -30,7 +30,7 @@ The project was implemented using:
 
 ---
 
-# Problem Statement
+# 🎯 Problem Statement
 
 Traditional banking systems face several challenges when processing massive datasets:
 
@@ -51,7 +51,7 @@ This project demonstrates how distributed systems solve these challenges using:
 
 ---
 
-# Dataset Information
+# 📊 Dataset Information
 
 Dataset Used:
 
@@ -94,7 +94,7 @@ Dataset Features:
 
 ---
 
-# System Architecture
+# 🚀 System Architecture
 
 ```text
 Raw Banking Data
@@ -114,7 +114,7 @@ Business Insights & Predictions
 
 ---
 
-# Technologies Used
+# 🛠️ Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -151,7 +151,7 @@ Business Insights & Predictions
 
 ---
 
-# Project Structure
+# 📁 Project Structure
 
 ```text
 Financial-Forecasting-Distributed-ML/
@@ -178,20 +178,19 @@ Financial-Forecasting-Distributed-ML/
 │   ├── mapper3.py
 │   └── reducer3.py
 │
-├── screenshots/
-│
 ├── Financial_Forecasting_Frontier_Distributed_ML_Final.ipynb
 │
 ├── README.md
+├── requirements.txt
 │
 └── Technical_Documentation.docx
 ```
 
 ---
 
-# Spark and PySpark Analytics
+# 📊 Spark and PySpark Analytics
 
-## Exploratory Data Analysis
+## 🔍 Exploratory Data Analysis
 
 EDA tasks performed:
 
@@ -204,7 +203,7 @@ EDA tasks performed:
 - Feature engineering
 - Visualizations
 
-### Key Insights
+### 💡 Key Insights
 
 - Most customers did not subscribe to term deposits.
 - Management and technician jobs showed higher average balances.
@@ -213,7 +212,7 @@ EDA tasks performed:
 
 ---
 
-# Data Parallelism
+# ⚙️ Data Parallelism
 
 The dataset was repartitioned to improve distributed execution efficiency.
 
@@ -233,7 +232,7 @@ partitioned_df = df.repartition(4)
 
 ---
 
-# Spark SQL Analytics
+# 🗄️ Spark SQL Analytics
 
 Implemented SQL-based distributed analytics using Spark SQL.
 
@@ -250,11 +249,11 @@ ORDER BY avg_balance DESC
 
 ---
 
-# Machine Learning Pipeline
+# 🤖 Machine Learning Pipeline
 
 A distributed ML pipeline was implemented using Spark ML.
 
-## Pipeline Components
+## 🧩 Pipeline Components
 
 - StringIndexer
 - OneHotEncoder
@@ -268,7 +267,7 @@ A distributed ML pipeline was implemented using Spark ML.
 Logistic Regression
 ```
 
-## Evaluation Metrics
+## 📈 Evaluation Metrics
 
 - AUC Score
 - Prediction Accuracy
@@ -291,11 +290,11 @@ AUC Evaluation
 
 ---
 
-# Real-Time Streaming Analytics
+# 🌊 Real-Time Streaming Analytics
 
 Spark Structured Streaming was implemented using file-based streaming simulation.
 
-## Features Implemented
+## ✨ Features Implemented
 
 - Real-time aggregation
 - Streaming predictions
@@ -320,7 +319,7 @@ Console Output
 
 ---
 
-# Hadoop MapReduce Simulation
+# 🗺️ Hadoop MapReduce Simulation
 
 Due to Hadoop Streaming limitations on Windows, local MapReduce simulation was implemented using Python mapper and reducer scripts.
 
@@ -346,7 +345,7 @@ Output
 
 ---
 
-# Hive Analytics
+# 🐝 Hive Analytics
 
 HiveQL queries were executed for distributed SQL analytics.
 
@@ -372,7 +371,7 @@ GROUP BY job;
 
 ---
 
-# Model Evaluation
+# 🎯 Model Evaluation
 
 The Logistic Regression model was evaluated using:
 
@@ -383,7 +382,7 @@ The model successfully predicted customer subscription behaviour for banking mar
 
 ---
 
-# Business Impact
+# 💼 Business Impact
 
 This project demonstrates how distributed analytics systems help banks perform:
 
@@ -396,7 +395,7 @@ This project demonstrates how distributed analytics systems help banks perform:
 
 ---
 
-# Future Improvements
+# 🚀 Future Improvements
 
 Possible production-level improvements:
 
@@ -413,7 +412,7 @@ Possible production-level improvements:
 
 ---
 
-# Screenshots Included
+# 📸 Screenshots Included
 
 The project documentation includes screenshots for:
 
@@ -433,7 +432,7 @@ The project documentation includes screenshots for:
 
 ---
 
-# Final Validation
+# 🏆 Final Validation
 
 The project successfully demonstrated:
 
@@ -448,12 +447,12 @@ The project successfully demonstrated:
 
 ---
 
-# Author
+# ✍️ Author
 
-Akshat Mishra
+Anshul Baghel
 
 ---
 
-# License
+# 📜 License
 
 This project is intended for academic, learning, portfolio, and demonstration purposes.
